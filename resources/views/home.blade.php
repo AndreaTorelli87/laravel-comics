@@ -13,7 +13,7 @@
          @foreach ($DB_Comics as $comic)
             <div class="card">
                <div class="imgWrapper">
-                  <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}" />
+                  <img class="w-100" src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}" />
                </div>
                <h6 class="my-2">{{ $comic["title"] }}</h6>
             </div>
