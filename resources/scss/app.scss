@@ -1,0 +1,58 @@
+@import '~bootstrap/scss/bootstrap';
+
+// header
+li {
+   padding: 50px 0;
+   border-bottom: solid 6px white;
+
+   &:hover {
+      border-bottom: solid 6px #0282F9;
+
+      a {
+         color: #0282F9;
+      }
+   }
+}
+
+a {
+   color: black;
+}
+
+// jumbo 
+
+#jumbo{
+   background-image: url(../../public/img/jumbotron.jpg);
+   height: 43vh;
+}
+
+h2{
+   background-color: #0282F9;
+   margin: -2rem 0;
+}
+
+// card
+
+.sfondo {
+   background-image: url(../../public/img/footer-bg.jpg);
+}
+
+.container {
+   height: 50vh;
+}
+
+a {
+   color: gray;
+   text-decoration: none;
+   transition: all 0.3s ease;
+
+   &:hover{
+      color: #0282F9;
+      text-decoration: underline;
+   }
+}
+
+img {
+   position: absolute;
+   right: 0;
+   top: -45px;
+}
